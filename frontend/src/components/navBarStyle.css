@@ -1,0 +1,24 @@
+/* Asegura que el nav tenga display: flex y se alinee correctamente */
+nav {
+  display: flex;
+  justify-content: space-between; /* Ajusta según sea necesario */
+  align-items: center; /* Alinea verticalmente el contenido del nav */
+}
+
+/* Estilos adicionales para la alineación del contenedor de botones */
+nav .flex {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el contenido del contenedor de botones */
+}
+
+.custom-link {
+  color: #4819a7;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 4px;
+  /* Agrega cualquier otro estilo que desees */
+}
+
+.nav-margin {
+  margin: 0px 5px;
+}
